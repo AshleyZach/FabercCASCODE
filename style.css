@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+@keyframes slide {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  
+  .animate-slide {
+    animation: slide 5s linear infinite;
+  }
+
+/* change font, background, shopping bag color
